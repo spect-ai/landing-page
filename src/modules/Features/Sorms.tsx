@@ -69,9 +69,9 @@ export function Sorms() {
           </GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
             The first Sybil protected, credential curated{" "}
-            <span className="text-white">Web3 enabled Form</span> built to
-            empower you to run successful onboarding programs, grants programs,
-            surveys and so much more!
+            <span className="text-white">Web3 Form</span> built to empower you
+            to run successful community surveys, onboarding, grant programs and
+            so much more!
           </p>
           <div className="my-8 flex flex-row gap-4">
             <a href="https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form">

@@ -51,9 +51,9 @@ export function Projects() {
             Projects
           </GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
-            This is where actual Tasks, Grants and Bounties are managed using
-            different views such as Kanban, List, Gantt and Tables. Paying cards
-            is made easy using Batch Pay.
+            Sharing context on tasks, contacts and content has never been
+            easier. Arrange stuff the way you like with powerful filters and
+            views.
           </p>
           <div className="my-8 flex flex-row gap-4">
             <a href="https://docs.spect.network/spect-docs/features/what-is-a-project">
