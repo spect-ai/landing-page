@@ -13,10 +13,10 @@ export default function Footer() {
     <div className="h-full flex flex-col bg-black justify-center m-12 items-center relative">
       <div className="flex flex-col items-center my-8">
         <h1 className="p-8 lg:w-[35rem] text-center md:leading-normal sm:leading-normal lg:leading-normal lg:text-5xl md:text-4xl sm:text-4xl font-bold">
-          Supercharge your <GradientWord>DAO</GradientWord> today
+          Start buidling with Spect <GradientWord>today</GradientWord>
         </h1>
         <div className="mb-12 flex flex-row gap-6">
-          <a href="https://docs.spect.network/spect-docs/introduction/how-it-works">
+          <a href="https://calendly.com/adityachakra16/outreach">
             <button
               className="
               px-8
@@ -31,7 +31,7 @@ export default function Footer() {
               hover:text-white
               duration-700"
             >
-              Explore Docs
+              Book a Demo
             </button>
           </a>
           <a href="https://circles.spect.network/">
@@ -52,7 +52,6 @@ export default function Footer() {
             </button>
           </a>
         </div>
-        <p className="text-zinc-500">Got questions ? Ping us in our Discord</p>
       </div>
       <VioletBlur className="absolute bottom-0 left-0" />
       <PinkBlur className="absolute bottom-36 right-0 h-48 w-48 opacity-75" />

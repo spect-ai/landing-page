@@ -11,19 +11,19 @@ const features = [
     icon: "ApartmentOutlined",
     title: "Modular",
     content:
-      "Every sub-DAO on Spect is immensely powerful. Sub-DAOs can go as deep or as wide as you desire",
+      "Create as many workstreams as needed with their own roles, permissions & integrations and scale your organization as you grow.",
   },
   {
     icon: "Credentialing",
-    title: "Credentialing",
+    title: "Embeddable",
     content:
-      "Contributors on Spect can build their credentials as they contribute to DAOs. These credentials can be used by contributors anywhere permissionlessly",
+      "Spect forms are embeddable on your website & other platforms making it possible for non-developers to build with ease.",
   },
   {
     icon: "Support",
-    title: "24x7 Support",
+    title: "Support like No Other",
     content:
-      "Our team is based in various timezones which allows us to provide support 24x7",
+      "Helping you achieve what you set out to achieve is our top priority. Build with Spect and experience customer support like never before.",
   },
 ];
 

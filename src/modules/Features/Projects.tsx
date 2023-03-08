@@ -9,23 +9,23 @@ import { MdOutlinePublishedWithChanges } from "react-icons/md";
 const features = [
   {
     icon: "Pay",
-    title: "Pay multiple Cards at once",
+    title: "Customizable as f**k",
     content:
-      "Using Batch Pay, you can pay as many people as you want, provided the tasks they have completed have them as the assignee and have the reward already set.",
+      "Setup your project any way you like, with custom fields, views, roles & permissions.",
     link: "https://docs.spect.network/spect-docs/features/what-is-a-project/batch-pay",
   },
   {
     icon: "Kudos",
-    title: "Soulbound tokens for Contributors",
+    title: "Automate and Save Time",
     content:
-      "Issuing Soulbound tokens on successful completion of tasks, bounties or milestones using MintKudos",
+      "Feels like you're spending too much time on repetitive tasks? Automate them with Spect!",
     link: "https://docs.spect.network/spect-docs/features/what-is-a-project/proof-of-work",
   },
   {
     icon: "Customize",
-    title: "Customize your Project with Views",
+    title: "Pay for Work Well Done",
     content:
-      "Create Views on Projects & Upgrade your productivity by Filtering, Searching, Grouping & Sorting Cards.",
+      "Pay contributors for their work using your own custom ERC20 token on multiple networks.",
     link: "",
   },
 ];
@@ -51,28 +51,11 @@ export function Projects() {
             Projects
           </GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
-            This is where actual Tasks, Grants and Bounties are managed using
-            different views such as Kanban, List, Gantt and Tables. Paying cards
-            is made easy using Batch Pay.
+            Sharing context on tasks, contacts and content has never been
+            easier. Arrange stuff the way you like with powerful filters and
+            views.
           </p>
           <div className="my-8 flex flex-row gap-4">
-            <a href="https://docs.spect.network/spect-docs/features/what-is-a-project">
-              <button
-                className="
-              px-8
-              py-3
-              rounded-xl
-              text-md
-              text-zinc-400
-              text-bold
-              hover:bg-white
-              hover:bg-opacity-5
-              hover:text-white
-              duration-700"
-              >
-                Learn More
-              </button>
-            </a>
             <a href="https://circles.spect.network/">
               <button
                 className="
@@ -96,9 +79,7 @@ export function Projects() {
       <div className="grid grid-cols-3 gap-4 lg:mx-60 sm:mx-6 md:mx-6">
         {features.map((feat) => (
           <Card
-            onClick={() => {
-              window.open(feat.link);
-            }}
+            onClick={() => {}}
             className="lg:col-span-1 sm:col-span-3 md:col-span-3 rounded-xl hover:-translate-y-3 duration-700 text-center items-center"
           >
             <div className="text-purple p-2">
@@ -112,7 +93,7 @@ export function Projects() {
                 />
               )}
               {feat.icon == "Kudos" && (
-                <FaAward
+                <MdOutlinePublishedWithChanges
                   style={{
                     height: "2.5rem",
                     width: "2.5rem",
@@ -121,7 +102,7 @@ export function Projects() {
                 />
               )}
               {feat.icon == "Customize" && (
-                <MdOutlinePublishedWithChanges
+                <FaAward
                   style={{
                     height: "2.5rem",
                     width: "2.5rem",

@@ -30,19 +30,19 @@ function HeroSection() {
       <div className="lg:mt-24 md:mt-12 sm:mt-12 flex flex-col text-center items-center z-20">
         <div className="flex flex-col mx-auto py-4 mb-10 ">
           <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-5xl md:text-4xl sm:text-4xl font-bold z-30">
-            Create advanced workflows <br /> for your{" "}
-            <GradientWord>DAO</GradientWord> within seconds
+            <GradientWord> Web3</GradientWord> forms, projects and automations
+            <br />
             {/* Built for <span style={{ textDecoration: "line-through white" }}>
             </span><GradientWord> Circles</GradientWord> <br /> that change the
             world */}
           </h1>
           <h2 className="text-center lg:w-3/5 sm:w-4/5 md:4/5 mx-auto mt-4 text-zinc-400">
-            Spect helps DAOs run successful grant programs, onboarding and
-            projects.
+            Spect helps you and your frens coordinate to build the next big
+            thing
           </h2>
         </div>
         <div className="mb-12 flex flex-row gap-6 z-20">
-          <a href="https://www.youtube.com/playlist?list=PLdwhfxtIkROmkPUhWwFzwp61ollQf_R44">
+          <a href="https://calendly.com/adityachakra16/outreach">
             <button
               className="
               px-8
@@ -57,7 +57,7 @@ function HeroSection() {
               hover:text-white
               duration-700"
             >
-              Watch Demo
+              Book a Demo
             </button>
           </a>
           <a href="https://circles.spect.network/">
