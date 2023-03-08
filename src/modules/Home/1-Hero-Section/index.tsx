@@ -42,7 +42,7 @@ function HeroSection() {
           </h2>
         </div>
         <div className="mb-12 flex flex-row gap-6 z-20">
-          <a href="https://www.youtube.com/playlist?list=PLdwhfxtIkROmkPUhWwFzwp61ollQf_R44">
+          <a href="https://calendly.com/adityachakra16/outreach">
             <button
               className="
               px-8
@@ -57,7 +57,7 @@ function HeroSection() {
               hover:text-white
               duration-700"
             >
-              Watch Demo
+              Book a Demo
             </button>
           </a>
           <a href="https://circles.spect.network/">

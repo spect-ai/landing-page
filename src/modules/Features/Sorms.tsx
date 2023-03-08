@@ -28,14 +28,14 @@ const features = [
     icon: "Gitcoin",
     title: "Sybil Resistant",
     content:
-      "We’ve integrated Gitcoin Passport for you to create Sybil protected Forms. And it is fully customizable!",
+      "We’ve integrated Gitcoin Passport for you to create sybil resistant forms. And it is fully customizable!",
     link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/enable-sybil-resistance",
   },
   {
     icon: "Token",
-    title: "Token Gating",
+    title: "Role Gating",
     content:
-      "Want to target your Forms to specific role holders within your community? We’ve integrated guild.xyz for you to be able do so",
+      "Easily gate forms and allow specific role holders within your community to participate in feedback and surveys.",
     link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/role-gating",
   },
   {
@@ -47,9 +47,9 @@ const features = [
   },
   {
     icon: "Kudos",
-    title: "Distribute Credentials",
+    title: "Incentivization & Memorabilia",
     content:
-      "Using Forms, you can automatically distribute Kudos via Mintkudos🎉 to responders",
+      "Using Forms, you can automatically distribute NFTs, POAPs & even ERC-20 tokens to your community members.",
     link: "https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form/soulbound-tokens-for-responders",
   },
 ];
@@ -68,29 +68,12 @@ export function Sorms() {
             Forms
           </GradientWord>
           <p className="text-lg text-zinc-400 leading-normal lg:text-left sm:text-center md:text-center">
-            The first Sybil protected, credential curated{" "}
-            <span className="text-white">Web3 Form</span> built to empower you
+            The first sybil resistant, token gated,{" "}
+            <span className="text-white">web3 form</span> built to empower you
             to run successful community surveys, onboarding, grant programs and
             so much more!
           </p>
           <div className="my-8 flex flex-row gap-4">
-            <a href="https://docs.spect.network/spect-docs/features/wtf-is-a-web3-enabled-form">
-              <button
-                className="
-              px-8
-              py-3
-              rounded-xl
-              text-md
-              text-zinc-400
-              text-bold
-              hover:bg-white
-              hover:bg-opacity-5
-              hover:text-white
-              duration-700"
-              >
-                Learn More
-              </button>
-            </a>
             <a href="https://circles.spect.network/">
               <button
                 className="
@@ -120,9 +103,7 @@ export function Sorms() {
       <div className="grid grid-cols-4 gap-4 lg:mx-96 sm:mx-6 md:mx-6">
         {features.map((feat) => (
           <Card
-            onClick={() => {
-              window.open(feat.link);
-            }}
+            onClick={() => {}}
             className="lg:col-span-2 sm:col-span-4 md:col-span-4 rounded-xl hover:-translate-y-3 duration-700 text-center items-center"
           >
             <div className="text-purple p-2">
