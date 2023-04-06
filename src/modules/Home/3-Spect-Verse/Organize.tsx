@@ -71,14 +71,14 @@ export default function Organize() {
             <img
               src="/krebit.svg"
               className="h-12 cursor-pointer"
-              onClick={() =>
-                window.open("https://www.bankless.community/", "_blank")
-              }
+              onClick={() => window.open("https://krebit.id/", "_blank")}
             />
             <img
               src="/bdao5.png"
               className="h-10 cursor-pointer"
-              onClick={() => window.open("https://krebit.id/", "_blank")}
+              onClick={() =>
+                window.open("https://www.bankless.community/", "_blank")
+              }
             />
           </div>
         </div>
