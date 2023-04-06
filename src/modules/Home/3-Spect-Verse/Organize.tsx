@@ -48,45 +48,36 @@ export default function Organize() {
         />
         <div className="lg:col-span-4 md:col-span-6 sm:col-span-6 flex flex-col mx-auto align-center">
           <p className="text-2xl font-semibold text-zinc-400 leading-normal text-center mb-8 mt-4">
-            Used by and Partnered with the best
+            Trusted by frens at
           </p>
           <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8">
             <img
               src="/push.svg"
               className="h-10 cursor-pointer"
-              onClick={() =>
-                window.open("https://twitter.com/pushprotocol", "_blank")
-              }
+              onClick={() => window.open("https://push.org/", "_blank")}
             />
             <img
               src="/gtc.svg"
               className="h-12 cursor-pointer"
-              onClick={() =>
-                window.open("https://twitter.com/gitcoin", "_blank")
-              }
+              onClick={() => window.open("https://www.gitcoin.co/", "_blank")}
             />
-            <div
-              className="text-center text-2xl align-middle text-white cursor-pointer"
-              onClick={() =>
-                window.open("https://twitter.com/mintkudosXYZ", "_blank")
-              }
-            >
-              🎉 Mintkudos
-            </div>
+            <img
+              src="/kokonut.svg"
+              className="h-12 cursor-pointer"
+              onClick={() => window.open("https://kokonut.network/", "_blank")}
+            />
           </div>
           <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8">
+            <img
+              src="/bdao5.png"
+              className="h-8 cursor-pointer"
+              onClick={() => window.open("https://krebit.id/", "_blank")}
+            />
             <img
               src="/krebit.svg"
               className="h-12 cursor-pointer"
               onClick={() =>
-                window.open("https://mobile.twitter.com/krebitid", "_blank")
-              }
-            />
-            <img
-              src="/biconomy.svg"
-              className="h-8 cursor-pointer"
-              onClick={() =>
-                window.open("https://mobile.twitter.com/biconomy", "_blank")
+                window.open("https://www.bankless.community/", "_blank")
               }
             />
           </div>
