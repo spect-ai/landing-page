@@ -73,7 +73,7 @@ export function Sorms() {
             to run successful community surveys, onboarding, grant programs and
             so much more!
           </p>
-          <div className="my-8 flex flex-row gap-4">
+          <div className="my-8 flex flex-row gap-4 sm:justify-center md:justify-center">
             <a href="https://circles.spect.network/">
               <button
                 className="

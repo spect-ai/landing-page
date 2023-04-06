@@ -55,7 +55,7 @@ export function Projects() {
             easier. Arrange stuff the way you like with powerful filters and
             views.
           </p>
-          <div className="my-8 flex flex-row gap-4">
+          <div className="my-8 flex flex-row gap-4 sm:justify-center md:justify-center">
             <a href="https://circles.spect.network/">
               <button
                 className="

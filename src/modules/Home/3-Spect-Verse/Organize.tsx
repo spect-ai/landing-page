@@ -67,18 +67,18 @@ export default function Organize() {
               onClick={() => window.open("https://kokonut.network/", "_blank")}
             />
           </div>
-          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8">
-            <img
-              src="/bdao5.png"
-              className="h-8 cursor-pointer"
-              onClick={() => window.open("https://krebit.id/", "_blank")}
-            />
+          <div className="flex lg:flex-row md:flex-row sm:flex-col gap-16 mx-auto items-center mt-8 sm:mt-16">
             <img
               src="/krebit.svg"
               className="h-12 cursor-pointer"
               onClick={() =>
                 window.open("https://www.bankless.community/", "_blank")
               }
+            />
+            <img
+              src="/bdao5.png"
+              className="h-10 cursor-pointer"
+              onClick={() => window.open("https://krebit.id/", "_blank")}
             />
           </div>
         </div>
