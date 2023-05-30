@@ -1,6 +1,6 @@
 export default function TermsOfUse() {
   return (
-    <div className="gap-4 px-48 py-12 relative">
+    <div className="gap-4 px-12 lg:px-48 py-12 relative">
       {" "}
       <h1 className="lg:text-3xl md:text-3xl sm:text-3xl font-bold z-30">
         Terms and Conditions
@@ -339,7 +339,7 @@ export default function TermsOfUse() {
       </h1>
       <p>
         If you have any questions about these Terms and Conditions, You can
-        contact us by email: chakra@spect.network
+        contact us by email: support@spect.network
       </p>
     </div>
   );
