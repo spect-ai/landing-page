@@ -27,12 +27,7 @@ export function Navbar({ menuOpen, setMenuOpen }: Props) {
             Pricing
           </button>
         </Link>
-        <a href="https://docs.spect.network/spect-docs/introduction/faq">
-          <button className="px-6 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
-            FAQ
-          </button>
-        </a>
-        <a href="https://docs.spect.network/spect-docs/introduction/how-it-works">
+        <a href="https://docs.spect.network/">
           <button className="px-6 py-3 rounded-xl text-md text-zinc-400 hover:text-white hover:bg-white hover:bg-opacity-5 duration-700">
             Docs
           </button>
