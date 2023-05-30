@@ -57,8 +57,8 @@ export default function Pricing() {
             <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-4xl md:text-3xl sm:text-3xl font-bold z-40 p-2">
               <GradientWord className="my-3">Free</GradientWord>
             </h1>
-            <div className="flex flex-row gap-3 mt-4">
-              <div className="flex flex-col gap-3 mt-4 w-96">
+            <div className="flex flex-col lg:flex-row gap-3 mt-4">
+              <div className="flex flex-col gap-3 mt-4 w-full lg:w-96">
                 {freePlan.slice(0, 8).map((feature) => {
                   return (
                     <div
@@ -73,7 +73,7 @@ export default function Pricing() {
                   );
                 })}
               </div>
-              <div className="flex flex-col gap-3 mt-4 w-96">
+              <div className="flex flex-col gap-3 mt-4 w-full lg:w-96">
                 {freePlan.slice(8, 17).map((feature) => {
                   return (
                     <div
@@ -96,7 +96,7 @@ export default function Pricing() {
             </a>
           </div>
         </div>
-        <div className="flex flex-row text-center items-start z-20 gap-8 h-128">
+        <div className="flex flex-col lg:flex-row text-center items-start z-20 gap-8 h-128">
           <div className="flex flex-col text-center items-center z-20">
             <div className="lg:col-span-1 md:col-span-2 sm:col-span-2 bg-gradientTwo rounded-xl h-full p-8">
               <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-4xl md:text-3xl sm:text-3xl font-bold z-40 p-2">
