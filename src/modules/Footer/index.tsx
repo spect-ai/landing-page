@@ -93,9 +93,14 @@ export default function Footer() {
       <div>
         <img src="/footer.svg" className="h-16" />
       </div>
-      <Link to={"/terms-of-use"}>
-        <p className="hover:text-purple">Terms of Use</p>
-      </Link>
+      <div className="text-xl text-zinc-300 flex flex-row flex-wrap justify-center gap-8 my-10 z-20">
+        <Link to={"/terms-of-use"}>
+          <p className="hover:text-purple">Terms of Use</p>
+        </Link>
+        <Link to={"/privacy-policy"}>
+          <p className="hover:text-purple">Privacy Policy</p>
+        </Link>{" "}
+      </div>
     </div>
   );
 }
