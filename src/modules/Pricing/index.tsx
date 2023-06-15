@@ -14,10 +14,11 @@ const freePlan = [
   "Lookup on chain data of form responders",
   "Collect form responses on Discord",
   "2 plugins per form",
-  "10 automations",
-  "Unlimited Projects with 200 rows",
+  "Unlimited live automations",
+  "100 automation runs per month",
+  "Unlimited Projects with 100 rows",
   "Pre-set roles",
-  "3 members in space",
+  "3 members with write and manage access in space",
 ];
 
 const paidPlan = [
@@ -25,10 +26,10 @@ const paidPlan = [
   "Unlimited form plugins",
   "Response Analytics",
   "No Spect branding at the end of form",
-  "200 automations",
+  "2000 automation runs per month",
   "Unlimited projects with unlimited rows",
   "Unlimited workstreams",
-  "5 members in space",
+  "5 members with write and manage access in space",
   "$10 per additional member",
 ];
 
@@ -86,7 +87,7 @@ export default function Pricing() {
                   return (
                     <div
                       key={feature}
-                      className="flex flex-row gap-3 items-center"
+                      className="flex flex-row gap-3 items-center text-start"
                     >
                       <CheckOutlined style={{ color: "#BF5AF2" }} />
                       <p className="text-zinc-400 hover:text-white duration-700">
@@ -119,7 +120,7 @@ export default function Pricing() {
                 For larger teams
               </h1>
               <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-4xl md:text-3xl sm:text-3xl font-bold z-40 p-2">
-                <GradientWord className="my-3">$30 </GradientWord>
+                <GradientWord className="my-3">$30</GradientWord>
               </h1>
               <div>per month</div>
 
@@ -171,7 +172,7 @@ export default function Pricing() {
                 })}
               </div>
               <a href="https://circles.spect.network/r/1998bf5d-01d8-423d-820f-db83829a87b2">
-                <button className="px-8 py-3 my-3 mt-28 rounded-xl text-md text-purple text-bold bg-purple bg-opacity-5 hover:bg-opacity-25 duration-700">
+                <button className="px-8 py-4 my-3 mt-32 rounded-xl text-md text-purple text-bold bg-purple bg-opacity-5 hover:bg-opacity-25 duration-700">
                   Get In Touch
                 </button>
               </a>
