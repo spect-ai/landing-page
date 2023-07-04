@@ -120,7 +120,7 @@ export default function Pricing() {
                 For larger teams
               </h1>
               <h1 className="md:leading-normal sm:leading-normal lg:leading-tight lg:text-4xl md:text-3xl sm:text-3xl font-bold z-40 p-2">
-                <GradientWord className="my-3">$30</GradientWord>
+                <GradientWord className="my-3">$29</GradientWord>
               </h1>
               <div>per month</div>
 
